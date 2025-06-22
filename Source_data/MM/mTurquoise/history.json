@@ -1,0 +1,37 @@
+[
+  [
+    "Compile (napari-mm3)",
+    "2025-01-17 02:07:25.760899",
+    {
+      "FOVs (1-17)": "1-17",
+      "image source": "BioFormats / other TIFF",
+      "separate image plane files": false,
+      "phase plane channel": "c1",
+      "time range (frames 0-130)": [
+        0,
+        130
+      ],
+      "seconds per frame": 150,
+      "trap orientation": "auto",
+      "channel width": 17,
+      "channel separation": 35
+    }
+  ],
+  [
+    "SegmentUnet (napari-mm3)",
+    "2025-01-17 02:10:49.783146",
+    {
+      "FOVs (1-17)": "1-17",
+      "phase plane": "c1",
+      "model file": "/Users/ryan/Documents/MFK_analysis/UNET_MODELS/20230223_256x32.hdf5",
+      "min object size": 25,
+      "batch size": 20,
+      "cell class threshold": 0.5,
+      "Rescale pixel intensity": true,
+      "image height": 256,
+      "image width": 32,
+      "Model source": "Pixelwise weighted",
+      "Display results": true
+    }
+  ]
+]
