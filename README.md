@@ -1,0 +1,3 @@
+This repository contains all data for main and supplementary figures for the paper "Engineering Synthetic Phase Variation for Control of Microbial Consortium". Figures are generated within individual notebooks that carry out the relevant anlysis. Certain pieces of data did not require further analysis for use in the figures e.g. mother machine kymograph. These pieces of data are present in the supplementary files associated with this paper. 
+
+The environment.yml file in the Analysis folder provides information on the Python environment used for analysis and plotting of data.
